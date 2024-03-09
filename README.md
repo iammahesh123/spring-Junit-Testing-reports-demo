@@ -35,10 +35,10 @@ mvn clean package
  ```
 4. Run the application:
 ```bash
-mvn springboot:run
+mvn test
  ```
-5. Access the application in your web browser: http://localhost:8080
-6. Execute the task(s) defined in the application and observe the results.
+
+5. Access the testing reports generated in the target/surefire-reports and target/site/jacoco directories.
 ## Configuration
 - 'pom.xml': Contains Maven configurations for JUnit, JaCoCo, and Surefire plugins.
 - 'src/test/java': Contains JUnit test classes.
